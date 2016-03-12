@@ -280,19 +280,9 @@
 <p>执行如下命令，启动本地服务，进行文章预览调试。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></p>
 <p>浏览器输入 <a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a> 就可以看到效果。</p>
 <h4 id="4-部署到github"><a href="#4-部署到github" class="headerlink" title="4.部署到github"></a>4.部署到github</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>##关于多个电脑上</p>
-<ol>
-<li><p>拷贝仓库；</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone git@github.com:llqy/sourse-llqy.github.io.git hexo</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>测试</p>
-</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd hexo</span><br><span class="line">touch aa</span><br><span class="line">git add aa</span><br><span class="line">git commit -m &quot;test&quot;</span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
-<ol>
-<li>在本地新拷贝的 sourse-llqy.github.io.git 文件夹下通过Git bash依次执行下列指令：（记得，不需要hexo init这条指令）。</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line">npm install --save	</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h2 id="关于多个电脑上"><a href="#关于多个电脑上" class="headerlink" title="关于多个电脑上"></a>关于多个电脑上</h2><h3 id="1-拷贝仓库；"><a href="#1-拷贝仓库；" class="headerlink" title="1. 拷贝仓库；"></a>1. 拷贝仓库；</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone git@github.com:llqy/sourse-llqy.github.io.git hexo</span><br></pre></td></tr></table></figure>
+<h3 id="2-测试"><a href="#2-测试" class="headerlink" title="2. 测试"></a>2. 测试</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd hexo</span><br><span class="line">touch aa</span><br><span class="line">git add aa</span><br><span class="line">git commit -m &quot;test&quot;</span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+<h3 id="3-在本地新拷贝的-sourse-llqy-github-io-git-文件夹下通过Git-bash依次执行下列指令：（记得，不需要hexo-init这条指令）。"><a href="#3-在本地新拷贝的-sourse-llqy-github-io-git-文件夹下通过Git-bash依次执行下列指令：（记得，不需要hexo-init这条指令）。" class="headerlink" title="3. 在本地新拷贝的 sourse-llqy.github.io.git 文件夹下通过Git bash依次执行下列指令：（记得，不需要hexo init这条指令）。"></a>3. 在本地新拷贝的 sourse-llqy.github.io.git 文件夹下通过Git bash依次执行下列指令：（记得，不需要hexo init这条指令）。</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save</span><br><span class="line">npm install --save	</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
       
     </div>
